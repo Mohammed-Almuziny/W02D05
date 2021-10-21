@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 50%;
+  padding: 10px;
+  background-color: black;
+  border: 0.5rem solid white;
+  border-radius: 1rem;
+}
+
+ul {
+  margin-top: 1rem;
+  list-style-type: none;
+  background-color: white;
+}
+
+li {
+  background-color: white;
+}
+
+li p {
+  color: black;
+  display: inline;
+}
+
+li p:hover {
+  cursor: pointer;
+}
+
+span {
+  color: blue;
+  font-size: x-small;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+p {
+  margin: 1.5rem 0;
+  color: white;
+}
+
+button {
+  background-color: white;
+  border: 0;
+  padding: 0.3rem;
+}
+
+.completLine {
+  text-decoration: line-through;
+}
